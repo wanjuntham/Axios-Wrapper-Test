@@ -1,0 +1,46 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,windows
+
+### Node ###
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,windows
